@@ -1,0 +1,16 @@
+.analyze-post-btn {
+  vertical-align: middle;
+  margin-left: 0.25em;
+  margin-right: -0.25em;
+  .d-icon {
+    color: var(--primary-medium);
+  }
+  .discourse-no-touch & {
+    &:hover,
+    &:focus {
+      .d-icon {
+        color: var(--tertiary);
+      }
+    }
+  }
+}
