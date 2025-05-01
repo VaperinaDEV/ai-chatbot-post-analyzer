@@ -1,0 +1,13 @@
+ai_chatbot_username:
+  description: "Username of the AI ChatBot"
+  type: string
+  default: ""
+analyze_post_icon:
+  description: "The used icon on posts"
+  type: string
+  default: "discourse-sparkles"
+svg_icons:
+  default: ""
+  type: list
+  list_type: "compact"
+  description: "List of FontAwesome 6 icons used in this theme component"
