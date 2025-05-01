@@ -34,13 +34,13 @@ export default apiInitializer("1.8.0", (api) => {
               return;
             }
 
-            // Open or create DM channel with AI ChatBot
+            // Open or create DM channel with AI Bot
             const channel = await chatService.upsertDmChannel({
-              usernames: [settings.ai_chatbot_username],
+              usernames: [settings.post_analyzer_bot_username],
             });
 
             if (!channel) {
-              console.error("Failed to find or create AI ChatBot DM channel.");
+              console.error("Failed to find or create AI Bot DM channel.");
               return;
             }
 

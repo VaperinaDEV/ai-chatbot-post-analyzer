@@ -1,5 +1,5 @@
-ai_chatbot_username:
-  description: "Username of the AI ChatBot"
+post_analyzer_bot_username:
+  description: "The username of the AI bot you want to use for analyzing posts in chat."
   type: string
   default: ""
 analyze_post_icon:
